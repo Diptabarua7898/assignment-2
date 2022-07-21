@@ -1,0 +1,162 @@
+.container{
+   
+    margin: 5% auto;
+    
+    max-width: 1000px;
+
+}
+/* header section start here */
+.Brazil{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    border-radius: 30px;
+    height: 400px;
+    
+}
+.Texts{
+    width: 100%;
+    padding-left: 7%;
+    
+}
+.Texts button{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(142, 208, 230);
+    
+}
+#font{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4vw;
+}
+#font:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.player{
+    width: 100%;
+    padding-top: 20px;
+
+}
+.player:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+/* header section ends here */
+
+/* main start here */
+
+.card{
+    display: flex;
+}
+
+.Info>h4>a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 7px;
+    border: 8px;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    background-color:  rgb(199, 57, 128);
+
+}
+.Info{
+    background-color: black;
+    width: 22%;
+    border-radius: 10px;
+    height: 175px;
+
+}
+.Info:hover{
+    transform: scale(1.1);
+        transition: 2s;
+}
+.Info>h5>a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 7px;
+    border: 8px;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    background-color: whitesmoke;
+}
+
+.card-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 78%;
+    justify-content: space-between;
+    padding-left: 2%;
+    
+}
+.card1{
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 10px;
+}
+.card1:hover{
+    
+    transform: scale(1.1);
+    transition: 2s;
+    
+}
+.card1>img{
+    padding: 15px;
+    width: 30%;
+}
+.card1>h3{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.card1>span{
+    margin-left: 20%;
+    font-size: 13px;
+    
+}
+
+
+/* main ends here */
+
+/* footer starts here */
+.footer{
+   
+    padding: 50px;
+    background-color: black;
+    height: 250px;
+}
+#goal{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    
+}
+.service{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px 20%;
+    
+}
+.icons{
+    text-align: center;
+    padding: 20px;
+}
+/* footer ends here */

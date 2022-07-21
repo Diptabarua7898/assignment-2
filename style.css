@@ -1,0 +1,280 @@
+.container{
+   
+    margin: 5% auto;
+    
+    max-width: 1000px;
+
+}
+/* header section start here */
+.Brazil{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    border-radius: 30px;
+    height: 400px;
+    
+}
+.Texts{
+    width: 100%;
+    padding-left: 7%;
+    
+}
+.Texts button{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(142, 208, 230);
+    
+}
+#font{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4vw;
+}
+#font:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.player{
+    width: 100%;
+    padding-top: 20px;
+
+}
+.player:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.view>button{
+    padding: 7px 20px;
+    border-radius: 5px;
+    background-color: rgb(142, 208, 230);
+    color: black;
+    border: 1px solid rgb(190, 186, 186);
+   margin-left: 50%;
+   visibility: hidden;
+}
+/* header section ends here */
+
+/* main start here */
+
+.card{
+    display: flex;
+}
+
+.Info>h4>a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 7px;
+    border: 8px;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    background-color: whitesmoke;
+
+}
+.Info{
+    background-color: black;
+    width: 22%;
+    border-radius: 10px;
+    height: 175px;
+
+}
+.Info:hover{
+    transform: scale(1.1);
+        transition: 2s;
+}
+.Info>h5>a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 7px;
+    border: 8px;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    background-color: rgb(199, 57, 128);
+}
+
+.card-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 78%;
+    justify-content: space-between;
+    padding-left: 2%;
+}
+.card1:hover{
+    
+    transform: scale(1.1);
+    transition: 2s;
+    
+}
+.card1{
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 10px;
+}
+
+.card1>img{
+    width: 100%;
+}
+.card1>button{
+    padding: 4px 12px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+.card1>h3{
+    margin-left: 5%;
+}
+/* main ends here */
+
+/* footer starts here */
+.footer{
+   
+    padding: 50px;
+    background-color: black;
+    height: 250px;
+}
+#goal{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    
+}
+.service{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px 20%;
+    
+}
+.icons{
+    text-align: center;
+    padding: 20px;
+}
+/* footer ends here */
+@media screen and (max-width: 576px) {
+    #font{
+        text-align: center;
+        padding: 10% 10%;
+        font-size: 30px;
+        margin-right: 10%;
+    }
+    .Brazil{
+        display: block;
+        margin: 0 auto;
+        padding: 18px;
+    }
+    .Texts>p{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15%;
+        
+    }
+    .Texts button{
+        margin-right: 20%;
+        margin-left: 33%;
+    }
+    .Brazil{
+        height: 648px;
+    }
+    .player>img{
+        width: 70%;
+        margin-left: 90px;
+    }
+
+    /* main start */
+    .card{
+        display: block;
+    }
+    .Info{
+        background-color: white;
+        margin-left: 10%;
+       
+    }
+    .Info>h4>a{
+       width: 250px;
+       font-size: 20px;
+       margin-left: 50%;
+       
+    }
+    .Info>h5>a{
+        font-size: 20px;
+        width: 250px;
+        margin-left: 50%;
+    }
+    .card-box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card1{
+        width: 110%;
+        margin-left: 25px;
+    }
+
+    /* main ends here */
+
+    .footer{
+        height: 500px; 
+    }
+    .service{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+}
+/* small device responsive ends here */
+
+/* tablet res starts here */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .card{
+        display: block;
+    }
+    .Info{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        background-color: white;
+        
+       
+        
+    }
+    .Info>h4>a{
+       width: 250px;
+        font-size: 20px;
+        margin-left: 10%;
+       
+     }
+     .Info>h5>a{
+         font-size: 20px;
+         width: 250px;
+         margin-left: 10%;
+     }
+     .card-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .card1{
+        width: 100%;
+        margin-left: 50px;
+    }
+    .view>button{
+        visibility: visible;
+    }
+}
